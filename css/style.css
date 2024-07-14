@@ -1,0 +1,180 @@
+body {
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+    font-family: 'Roboto Serif', serif;
+}
+
+i {
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.alert {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.form-control:focus {
+    border-color: #eff4fc;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.25rem rgba(233, 239, 245, 0.76);
+    box-shadow: 0 0 0 0.25rem rgba(233, 239, 245, 0.76);
+}
+
+
+.loading {
+    z-index: 999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.inner-loading {
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.side-box {
+    z-index: 99;
+}
+
+.side-box .nav-head .logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.side-box .nav-head .head-icons i {
+    font-size: 19px;
+}
+
+
+.side-box .nav-menu {
+    background-color: #0d0d0ddf;
+}
+
+.side-box .nav-menu .links ul li {
+    position: relative;
+    padding-block: 0.5rem;
+    cursor: pointer;
+}
+
+.side-box .nav-menu .nav-footer .icons i {
+    font-size: 17px;
+    -webkit-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.side-box .nav-menu .nav-footer .icons i:hover {
+    color: #E9B824;
+}
+
+.side-box .nav-menu .nav-footer .footer p {
+    font-size: 14px;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #a1a3a4 !important;
+}
+
+input::-moz-placeholder {
+    color: #a1a3a4 !important;
+}
+
+input:-ms-input-placeholder {
+    color: #a1a3a4 !important;
+}
+
+input::-ms-input-placeholder {
+    color: #a1a3a4 !important;
+}
+
+input::placeholder {
+    color: #a1a3a4 !important;
+}
+
+.meal h3 {
+    font-size: 20px;
+}
+
+.catogry-meal h3 {
+    font-size: 18px;
+    font-family: 'Bad Script', cursive;
+}
+
+@media (max-width: 767px) {
+    .meal h3 {
+        margin-top: 25px;
+    }
+
+    .catogry-meal h3 {
+        font-size: 22px;
+    }
+}
+
+h2.detail {
+    font-family: 'Bad Script', cursive;
+}
+
+p.detail {
+    font-family: 'Raleway', sans-serif;
+}
+
+.meal p {
+    font-size: 14px;
+    font-family: 'Alice', serif;
+}
+
+h3.area-detail {
+    font-family: 'Alice', serif;
+}
+
+@media (min-width:765px) and (max-width: 1200px) {
+    .meal p {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:765px) and (max-width: 991px) {
+    .meal h3 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 991px) {
+    .meal h3 {
+        font-size: 25px;
+    }
+}
+
+.meal-layer {
+    width: 100%;
+    height: 100%;
+    background-color: #f9f6f6ca;
+    top: 101%;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.meal:hover .meal-layer {
+    top: 0;
+}
+
+
+
+@media (max-width: 991px) {
+    p.desc {
+        font-size: 13px;
+    }
+}
